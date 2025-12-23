@@ -1,0 +1,728 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bgimg {
+    background-image: url(image/banner.jpg);
+    background-size: cover
+}
+
+/* header styling start */
+header {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+nav {
+    /* border: 1px solid red; */
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+#navida {
+    /* border: 1px solid blue; */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 53px;
+    color: white;
+}
+
+.rightsearch {
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 15px;
+}
+
+#searchi {
+    margin-top: 8px;
+}
+
+.navbutton {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    border-radius: 8px;
+}
+#toggle{
+    display: none;
+}
+#toggle label{
+    display: none;
+}
+.mobilenav{
+    display: none;
+}
+.toggle-btn{
+    display: none;
+}
+
+
+/* header styling End */
+
+
+
+
+/* Hero styling Start */
+.hero {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 800px;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.hero>h1 {
+    text-transform: uppercase;
+}
+
+.hero>p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero>button {
+    background-color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+
+.detail {
+    border: 2px solid black;
+}
+
+.herosectbut1 {
+    border: none;
+    border-radius: 10px;
+}
+
+.herosectbut1:hover {
+    background: lightskyblue;
+}
+
+/* Hero styling End */
+
+
+/* icon bar start */
+.iconbar {
+    /* border: 2px solid blue; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.iconsanddescription {
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+/* icon bar End */
+
+/* cards section start */
+.cards {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+
+}
+
+.card1 {
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    width: 564px;
+    /* height: 688px; */
+    margin-top: 10px;
+}
+
+.card1 img {
+    border-radius: 10px;
+}
+
+.cardbody h1 {
+    padding-left: 13px;
+}
+
+#cdp {
+    border-radius: 50%;
+    margin-left: 15PX;
+}
+
+.carddp {
+    display: flex;
+    justify-content: start;
+}
+
+.dpfront {
+    /* border: 1px solid red; */
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dpfront>h4 {
+    padding-left: 10px;
+}
+
+.shareiconandtext {
+    display: flex;
+    gap: 10px;
+}
+
+#mmm {
+    /* border: 2px solid red; */
+    color: black;
+}
+
+.paraandlink {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 12px;
+    padding-left: 13px;
+}
+
+#cardendlink {
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+/* cards section End */
+
+/* Load More button Start */
+.onlybutton {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80px;
+}
+
+#bbb {
+    width: 240px;
+    height: 54px;
+    margin-left: 50%;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: transform;
+    transition-duration: 2s;
+
+}
+
+#bbb:hover {
+    background: lightblue;
+    transform: scale(1.1);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Load More button End */
+
+/* Middle card section Start */
+.formiddlecard {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    height: 600px;
+}
+
+.forcarddetail {
+    /* border: 1px solid blue; */
+    /* width: 1760px; */
+    height: 400px;
+    margin-top: 15px;
+    margin: auto;
+    margin-top: 6%;
+    background-image: url(image/middle\ card.jpg);
+    background-size: cover;
+}
+
+.bhpbutton {
+    /* border: 1px solid black; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+}
+
+.mcdb1 {
+    color: white;
+}
+
+.mcdh1 {
+    text-align: center;
+    color: white;
+}
+
+.mcdp1 {
+    color: white;
+
+}
+
+.mcdb2 {
+    width: 320px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+    transition: transform 2s;
+}
+
+.mcdb2:hover {
+    background: lightblue;
+    transform: scale(1.1);
+}
+
+/* Middle card section End */
+
+/* Vertical card section start */
+.verticalcards {
+    /* border: 2px solid black; */
+    height: 350px;
+}
+
+.heading {
+    padding-left: 45px;
+    padding-top: 8px;
+}
+
+.heading p {
+    margin-top: 9px;
+}
+
+.vcards {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9px;
+}
+
+#scale {
+    transition: transform 2s;
+    border-radius: 10px;
+}
+
+#scale:hover {
+    transform: scale(1.1);
+}
+
+/* Vertical card section End */
+
+/* Category name section start */
+
+.Category {
+    /* border: 1px solid blue; */
+}
+
+.Category h4 {
+    display: inline;
+    padding-left: 35px;
+}
+
+/* Category name section End  */
+
+
+/* mix cards section start */
+.mixcards {
+    /* border: 1px solid red; */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hcard {
+    border: 1px solid #12141633;
+    /* width: 1023px; */
+    width: 58%;
+    height: 546px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.leftsidecard {
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 57.7%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightsidecard {
+    /* border: 1px solid red; */
+    width: 35%;
+    height: 500px;
+
+}
+
+.rightc1 {
+    /* border: 1px solid black; */
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+    transition: transform 2s;
+}
+
+.rightc1:hover {
+    transform: scale(1.1);
+}
+
+.rightc1 img {
+    border-radius: 5px;
+}
+
+.rightcardheadandpara {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+.rightdiv {
+    border: 1px solid #12141633;
+    width: 38.3%;
+    height: 546px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.righcard {
+    display: flex;
+}
+
+#tran {
+    border-radius: 10px;
+    transition: transform 2s;
+}
+
+#tran:hover {
+    transform: scale(1.1);
+}
+
+.for_h_and_p {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+/* mix cards section End */
+
+/* footer section start */
+.footer {
+    border: 1px solid blue;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+}
+
+.writer {
+    border: 1px solid black;
+    width: 495px;
+    color: white;
+}
+
+.forcolumiconandp {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.forcolumiconandp p {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.forfotericon {
+    display: flex;
+    gap: 15px;
+}
+
+/* footer section End */
+
+
+
+
+
+
+/* media query start */
+
+@media (max-width: 600px) {
+
+    /* HEADER */
+    .logo img {
+        width: 150px;
+    }
+
+    .rightsearch img {
+        width: 20px;
+        height: 20px;
+    }
+
+    header {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+    .navbutton {
+        padding: 10px;
+    }
+
+    .rightsearch {
+        display: flex;
+        align-items: center;
+    }
+
+    /* togle button start */
+    /* Hide checkbox */
+    #toggle {
+        display: none;
+    }
+
+    /* Toggle button icon */
+    .toggle-btn {
+        font-size: 28px;
+        cursor: pointer;
+        display: none;
+        color: black;
+    }
+
+    /* Mobile Menu */
+    .mobilenav {
+        position: absolute;
+        width: 100%;
+        background-color: wheat;
+        top: 60px;
+        left: 0;
+        display: none;
+        /* ✅ HIDDEN BY DEFAULT */
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    /* ✅ SHOW MENU WHEN CHECKED */
+    #toggle:checked~.mobilenav {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+
+    /* togle button End */
+
+    /* HERO */
+    .hero {
+        height: auto;
+        padding: 40px 10px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* ICON BAR */
+    .iconbar {
+        justify-content: center;
+    }
+
+    .iconsanddescription {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* CARDS */
+    .cardbody h1 {
+        font-size: 24px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardimg img {
+        width: 310px;
+    }
+
+    .card1 {
+        width: 310px;
+    }
+
+    .carddp {
+        padding-top: 20px;
+    }
+
+    .dpfront {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .shareiconandtext {
+        display: none;
+    }
+
+    /* LOAD MORE BUTTON */
+    #bbb {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* MIDDLE CARD */
+    .formiddlecard {
+        height: auto;
+    }
+
+    .forcarddetail {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    .bhpbutton {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .mcdb2 {
+        width: 90%;
+    }
+
+    /* VERTICAL CARDS */
+    .verticalcards {
+        height: auto;
+    }
+
+    .vcards {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #scale {
+        width: 90%;
+    }
+
+    /* CATEGORY */
+    .Category {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 40px;
+    }
+
+    .Category h4 {
+        padding: 10px 0;
+    }
+
+    /* MIX CARDS */
+    .mixcards {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .hcard,
+    .rightdiv {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .leftsidecard,
+    .rightsidecard {
+        width: 100%;
+        height: auto;
+    }
+
+    .rightc1 {
+        height: auto;
+        /* flex-direction: column; */
+        align-items: center;
+        text-align: center;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .righcard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .writer {
+        width: 100%;
+    }
+
+    .forfotericon {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+/* media query End` */
